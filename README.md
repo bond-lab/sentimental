@@ -1,0 +1,2 @@
+# sentimental
+A Sentimental Wordnet
