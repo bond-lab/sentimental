@@ -82,6 +82,11 @@ def eval_senti(test, gold, method='Pearson', threshold= 0.05):
     return r, sig, len(tl), nz, hs
 
 micro = read_MicroWN(MicroWNfile)
+# print ('number of senses in MicroWNOp', len(micro))
+# print ('number of zero senses in MicroWNOp', len([s for s in  micro if micro[s] == 0]))
+
+# print ('number of non-zero senses in MicroWNOp', len([s for s in  micro if micro[s] 
+                                                      != 0]))
 
 
 
